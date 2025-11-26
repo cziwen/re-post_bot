@@ -1,0 +1,25 @@
+{
+  "search": {
+    "tags": ["#AI", "#Tech"],
+    "keywords": ["Gemini", "ChatGPT"],
+    "check_interval_minutes": 10
+  },
+  "repost": {
+    "preset_comment": "This is an interesting post that I want to share with everyone!",
+    "max_reposts_per_run": 1
+  },
+  "auto_reply": {
+    "keyword_responses": {
+      "thank": "You're welcome! Glad I could help.",
+      "how to": "If you have any questions, feel free to ask anytime!",
+      "ok": "Great! Is there anything else you need help with?",
+      "help": "We're here to support you anytime!",
+      "price": "Please check our official website for the latest pricing information."
+    },
+    "default_response": "Thank you for your comment! We'll get back to you soon."
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "bot.log"
+  }
+}
